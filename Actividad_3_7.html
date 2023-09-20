@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="" method="post" enctype="multipart/form-data" name="frmRegistro">
+        <input type="hidden" name="hdnClave" value="12345">
+        <table width="50%" border="0" align="center" bgcolor="#6280AC">
+            <tr>
+                <th>INFORMACION GENERAL</th>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Nombre y Apellidos:</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="txtNombre" id="nombreCompleto" size="30" maxlength="40"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Fecha de nacimiento:</td>
+            </tr>
+            <tr>
+                <td><input type="date" name="dtFecha" id="fechaNacimiento" value="12-9-2023"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Pa&iacute;s de Origen:</td>
+            </tr>
+            <tr>
+                <td>
+                    <select name="slctPais" id="paisDeOrigen">
+                        <option value="españa">España</option>
+                        <option value="francia">Francia</option>
+                        <option value="austria">Austria</option>
+                        <option value="andorra">Andorra</option>
+                        <option value="portugal">Portugal</option>
+                        <option value="italia">Italia</option>
+                        <option value="san_marino">San Marino</option>
+                        <option value="alemania">Alemania</option>
+                        <option value="dinamarca">Dinamarca</option>
+                        <option value="paises_bajos">Paises Bajos</option>
+                        <option value="belgica">B&eacute;lgica</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>D&iacute;as de estancia: (1 - 180):</td>
+            </tr>
+            <tr>
+                <td><input type="number" name="nmbDias" id="diasDeEstancia" min="1" max="180"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Estado Civil:</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="radio" name="rdEstado" id="estadoSoltero" value="soltero" checked>
+                    <label for="estadoSoltero">Soltero</label> <br>
+                    <input type="radio" name="rdEstado" id="estadoCasado" value="casado">
+                    <label for="estadoCasado">Casado</label><br>
+                    <input type="radio" name="rdEstado" id="estadoUnionLibre" value="union_libre">
+                    <label for="estadoUnionLibre">Union Libre</label><br>
+                    <input type="radio" name="rdEstado" id="estadoSeparado" value="separado">
+                    <label for="estadoSeparado">Separado</label><br>
+                    <input type="radio" name="rdEstado" id="estadoDivorciado" value="divorciado">
+                    <label for="estadoDivorciado">Divorciado</label><br>
+                    <input type="radio" name="rdEstado" id="estadoViudo" value="viudo">
+                    <label for="estadoViudo">Viudo</label>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Pasatiempos:</td>
+            </tr>
+            <tr>
+                <td>Pasatiempos:</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="chkLeer" id="pasatiempoLeer">
+                    <label for="pasatiempoLeer">Leer</label><br>
+                    <input type="checkbox" name="chkBailar" id="pasatiempoBailar">
+                    <label for="pasatiempoBailar">Bailar</label><br>
+                    <input type="checkbox" name="chkViajar" id="pasatiempoViajar">
+                    <label for="pasatiempoViajar">Viajar</label><br>
+                    <input type="checkbox" name="chkCaminar" id="pasatiempoCaminar">
+                    <label for="pasatiempoCaminar">Caminar</label>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Asociar Foto (imagen):</td>
+            </tr>
+            <tr>
+                <td><input type="file" name="flFoto" id="Foto" accept="imagen/*"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <th>INFORMACION DE ACCESO</th>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Nombre de Usuario:</td>
+            </tr>
+            <tr>
+                <td><input type="text" name="txtUsuario" id="nombreUsuario"  size="30" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Contraseña:</td>
+            </tr>
+            <tr>
+                <td><input type="password" name="pswClave" id="contraseñaUsuario" size="30" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Confirmar Contraseña</td>
+            </tr>
+            <tr>
+                <td><input type="password" name="pswCClave" id="confContraseñaUsuario" size="30" maxlength="20"></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Correo Electronico:</td>
+            </tr>
+            <tr>
+                <td><input type="email" name="emlCorreo" id="correoUsuario" required></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>Sugerencias y comentarios:</td>
+            </tr>
+            <tr>
+                <td><textarea name="txtrComentarios" id="comentarios" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" name="btnEnviar" value="Enviar">
+                    &nbsp;&nbsp;
+                    <input type="reset" name="btnRestablecer" value="Restablecer">
+                </td>
+            </tr>
+        </table>
+        
+    </form>
+</body>
+</html>
