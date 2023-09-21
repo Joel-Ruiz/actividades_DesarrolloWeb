@@ -1,0 +1,13 @@
+.barralogotipo{background-color: #31734A;}
+
+a.enlace{color: #F7F7DE; display: flex; justify-content: right;}
+a.enlace:hover{color: #FFD600;}
+
+.barralateral{background-color: #FFD600;}
+
+.barrainferior{background-color: #FF0000;text-align: right;width: 100%;}
+
+a.enlacemenu{color: #31734A;}
+a.enlacemenu:hover{color: #000000;}
+
+p.textomenu{color: #31734A; text-align: center;}
