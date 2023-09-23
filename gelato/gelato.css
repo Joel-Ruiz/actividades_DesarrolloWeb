@@ -1,0 +1,96 @@
+#contenedor{
+	width:760px;
+	margin:0 auto; /*margin-top:0;margin-right:auto;margin-bottom:0;margin-left:auto;*/		 
+	/*el valor 'auto' lo determina el navegador*/	
+}
+
+body{
+	color: #000000;
+	font-family: Verdana, sans-serif;
+	font-size: 70%; /*70% del tamaño predefinido por el navegador para la fuente base*/
+	background-color: #ffffe0;
+	background-image: url(i/fondo_body.gif);
+	background-repeat: repeat-x;
+	line-height: 1.5em; /*alto de línea - interlineado*/
+}
+
+a:link, a:visited, a:active{
+	color:#000000;
+}
+
+a:hover{
+	text-decoration: none;
+}
+
+#contenedor{
+	width: 760px;
+	margin: 0 auto;
+}
+
+#contenedor_superior{
+	background-image: url(i/banda_superior.gif);
+	background-position: top center;
+	background-attachment: fixed;
+	height:5px; /*altura de la imagen*/
+	
+}
+
+#principal{
+	background-color: #fdeded;
+	margin: 0;
+	overflow: auto;
+}
+
+#encabezado{
+	margin: 0;
+	background-image: url(i/titulo.jpg);
+
+	background-position: bottom center;
+	height:140px;	
+}
+
+#menu{	
+	margin: 0 5px 0 5px;
+	text-align: center;
+	background-image: url(i/fondo_menu.gif);
+	background-position: top center;
+	height: 25px;	
+}
+
+#menu .opciones{
+	margin: 0;
+	
+}
+
+#menu .opciones li{
+	list-style: none;
+}
+
+#menu .opciones li a{
+	font-size: 12px;
+	color: #ffffff;
+	text-decoration: none;
+	padding: 0 10px 0 10px;
+}
+
+#contenido{
+	width: 580px;
+}
+
+#panel{
+	width: 130px;
+	float:left;	
+}
+
+#panel .seccion{
+	margin: 5px 0 20px 0; /*margin-top:5px;margin-right:0;margin-bottom:20px;margen-left:0*/
+}
+
+#panel #marco.seccion{
+	background-color:#f8c5ce; 
+	padding:10px; /*padding-top:10px;padding-right:10px;padding-bottom:10px;padding-left:10px;*/	
+}
+
+#pie{
+	clear:both; /*el elemento se situa debajo de los otros elementos que se encuentran sobre él*/	
+}
