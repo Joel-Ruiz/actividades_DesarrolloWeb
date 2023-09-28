@@ -24,7 +24,7 @@ a:hover{
 #contenedor_superior{
     background-image: url(i/banda_superior.gif);
     background-position: top center;
-    background-attachment: fixed;
+    background-repeat: no-repeat;
     height:5px; /*altura de la imagen*/
 	
 }
@@ -77,15 +77,15 @@ a:hover{
     width: 580px;
     padding: 0 20px 20px 20px;
     float: left;
-    border-right: 2px dotted #000;    
+    border-right: 2px dotted #52172d;    
     background-position: 98.5% 0%;
     box-sizing: border-box;
 }
 
 #contenido .texto{
     text-align: justify;
-    color: #52172d;
-    border-bottom: solid;
+    border-bottom-color: #52172d;
+    border-bottom-style: solid;
     border-bottom-width: 1px;
 }
 
@@ -122,8 +122,8 @@ a:hover{
     font-size: 12px;
     letter-spacing: 1px;
     font-variant: small-caps;
-    color: #52172d;
-    border-bottom: solid;
+    border-bottom-color: #52172d;
+    border-bottom-style: solid;
     border-bottom-width: 1px;
 }
 
