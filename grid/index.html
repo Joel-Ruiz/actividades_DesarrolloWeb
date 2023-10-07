@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>The CSS GRid Layout</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/layout_grid.css">
+</head>
+
+<body>
+    <div class="grid">
+        <header class="header">
+            <picture class="img-logo">
+                <source media="(min-width: 1023px)" srcset="images/logo-desktop.jpg 1x,images/logo-desktop-HD.jpg 2x">
+                <source media="(min-width: 639px)" srcset="images/logo-tablet.jpg 1x,images/logo-tablet-HD.jpg 2x">
+                <source srcset="images/logo-smartphone.jpg 1x,images/logo-smartphone-HD.jpg 2x">
+                <!-- Fallback for browsers that do not support <picture>. -->
+                <img src="images/logo.jpg" alt="Logo" class="img-logo">
+            </picture>
+        </header>
+        <nav class="nav">
+            <ul class="nav-ul">
+                <li class="nav-li"><a href="#" title="dummy" class="nav-li-a">Homepage</a></li>
+                <li class="nav-li"><a href="#" title="dummy" class="nav-li-a">Portfolio</a></li>
+                <li class="nav-li nav-active"><strong class="nav-li-a">Blog</strong></li>
+                <li class="nav-li"><a href="#" title="dummy" class="nav-li-a">Contact</a></li>
+                <li class="nav-li"><a href="#" title="dummy" class="nav-li-a">Legal Notes</a></li>
+            </ul>
+        </nav>
+        <main class="content">
+            <article class="article">
+                <h2>Computer history(s)</h2>
+                <p><img src="images/cover-1.png" alt="Cover" class="img-art">Zuse, IBM, Atari, browser war: If these names make you feel nostalgic, or if you are gripped by the desire to discover, you can look forward to this book. Let yourself
+                    be taken on an exciting journey in this computer history! Experience the development of computers, from the gigantic computer block that fills an entire room to the smart pocket device. Learn how the Millennium Bug
+                    sent the world into hysterics, and marvel at how centuries-old encryption techniques still influence the programming world today. You are not just a spectator and curious reader! Work with old programming languages, emulate the C64 home computer and immerse yourself in the pixel world of retro games.</p>
+            </article>
+            <article class="article">
+                <h2>Capture One 23</h2>
+                <p><img src="images/cover-2.png" alt="Cover" class="img-art">You want to organise, develop and present your image stock with Capture One Pro 20? Jürgen Wolf shows you step by step how to efficiently use Capture One
+                    and build up your practical photographic workflow with the software. In more than 100 workshops you will learn how to start a session or a catalogue, how to archive and manage your images, how to process raw images and how to publish your photographs in an appealing way.
+                    publish and print your photographs attractively. Of course, the import function of Lightroom catalogues is also dealt with in detail!</p>
+            </article>
+            <article class="article clear">
+                <h2>Course in C</h2>
+                <p><img src="images/cover-3.png" alt="Cover" class="img-art">The compact introduction to C programming in a practical pocketbook format. In this basic course you will find everything you need to know about the programming language C, up-to-date to the
+                    standard C18. The authors explain the language basics briefly and clearly before moving on to more complex topics. At the end of each chapter you can test your knowledge in exercises and compare your answers with the commented solutions.
+                    solutions. Many code examples and tables as well as a function reference make the book a useful companion for study and training.</p>
+            </article>
+            <article class="article">
+                <h2>Shell programming</h2>
+                <p><img src="images/cover-4.png" alt="Cover" class="img-art">Shell programming is the foundation of every Linux user and system administrator. Anyone who has mastered the command line as well as the most important buildins and tools will be able to manage Linux systems far more flexibly.
+                    Linux systems far more flexibly. This manual provides you with everything you need for shell programming to create your own shell scripts. Thanks to the extensive Linux-UNIX reference, the book is also perfect for looking up
+                    all basic terminal commands. Practical examples as well as exercises with solutions additionally support you in learning and in your daily work in the shell.</p>
+            </article>
+        </main>
+        <aside class="aside">
+            <h3>About the author</h3>
+            <p><img src="images/me.jpg" alt="Cover" class="img-side">Jürgen Wolf is a renowned technical author and made a name for himself early on with his standard works on C and C++. He feels equally at home in the Linux world and is convincing with his programming manuals.
+                with his programming manuals. In addition, he is passionately dedicated to digital image processing and impresses with his didactic skills. It shows his versatile talent to move between the worlds of programmers and graphic
+                and graphic designers and to convey his knowledge adequately. </p>
+            <p> Jürgen Wolf began writing IT books in 2002. At that time he was still working as a software developer. Today he devotes himself entirely to writing his technical books. The successful author was born in Augsburg in 1974. Today he lives near his
+                his birthplace. In his free time, he is intensively involved with digital photography. </p>
+        </aside>
+        <footer class="footer">
+            Footer - &copy;&nbsp;2023
+        </footer>
+    </div>
+</body>
+
+</html>
