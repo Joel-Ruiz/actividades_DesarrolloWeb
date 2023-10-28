@@ -1,0 +1,64 @@
+body, p, td {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 12pt;
+	color: #824100;	
+}
+.fondo {
+	/*background-image: url(imagenes/textura.jpg);*/
+	background-color: #f7ede1;
+}
+.contenido{
+	background-color: #FFFFFF;
+}
+.titulo {
+	font-size: large;
+	font-weight: bold;
+}
+.negritas {
+	font-weight: bold;
+}
+.pie{
+	background-color: #5A382E;
+	font-size: xx-small;
+	font-weight: normal;
+	color: #FFFFFF;
+	text-align: right;
+}
+.pequeno {
+	font-size: x-small;
+}
+a:hover {
+	border: 1px dotted #990000;
+	color: #000000;
+}
+a {
+	color: #990000;
+	text-decoration: none;
+	border: 1px dotted #FFFFFF;
+}
+.linea {
+	font-weight: bold;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-bottom-style: dotted;
+	border-top-color: #FFCC66;
+	border-right-color: #FFCC66;
+	border-bottom-color: #FFCC66;
+	border-left-color: #FFCC66;
+}
+.inferior {
+	font-size: x-small;
+	font-weight: bold;
+	border-top-width: 1px;
+	border-right-width: 1px;
+	border-bottom-width: 1px;
+	border-left-width: 1px;
+	border-top-style: dotted;
+	border-top-color: #FFCC66;
+	border-right-color: #FFCC66;
+	border-bottom-color: #FFCC66;
+	border-left-color: #FFCC66;
+	text-align: center;
+}
