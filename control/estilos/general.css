@@ -1,0 +1,38 @@
+body {
+	font-family: Geneva, Arial, Helvetica, sans-serif;
+	font-size: 11pt;
+	color: #333300;
+	margin: 0px;
+}
+#seccion {
+	font-size: 12pt;
+	font-weight: bold;
+	color: #000000;
+	text-align: right;
+	margin-right: 10px;
+}
+.menu {
+	font-size: 10pt;
+	font-weight: bold;
+	text-decoration: none;
+	text-align: center;
+	color:#FFFFFF;
+}
+a.menu:hover {
+	color: #CCFF66;
+	border-right-width: 3px;
+	border-bottom-width: 1px;
+	border-right-style: solid;
+	border-bottom-style: solid;
+	border-right-color: #CCFF66;
+	border-bottom-color: #CCFF66;
+}
+.estado {
+	color: #B90000;
+	text-decoration: none;
+	font-size: 10pt;
+	font-style: italic;
+}.titulo {
+	text-align: center;
+	font-weight: bold;
+}
