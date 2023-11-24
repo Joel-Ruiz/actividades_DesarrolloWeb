@@ -44,7 +44,7 @@ include_once("./funciones/administrar_productos.php");
             <td>Imagen asociada:</td>
          </tr>
          <tr>
-            <td><input type="file" name="fl_imagen" accept="image/*" value="<?php echo (isset($_FILES["fl_imagen"]["name"]))?$_FILES["fl_imagen"]["name"]:""; ?>"></td>
+            <td><input type="file" name="fl_imagen" accept="image/*"></td>
          </tr>
          <tr>
             <td>Precio:</td>

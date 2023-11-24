@@ -50,5 +50,6 @@ include_once("./funciones/listar.php");
     echo listarProductos();  
   ?>
 </table>
+<p>&nbsp;</p>
 </body>
 </html>
